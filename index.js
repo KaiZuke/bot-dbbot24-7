@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-
+bot.on('ready', () => { bot.user.setGame('say !help') });
 bot.on('message', (message) => {
 
     if(message.content == '!help') {
