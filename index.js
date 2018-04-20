@@ -9,7 +9,7 @@ bot.on('message', (message) => {
     }
 
     if(message.content == '!ranks') {
-        message.channel.sendMessage('Ada 7 Rank di server DB Gaming. Cara naik rank adalah dengan main bersama.\nMember : Rank Pertama di Server ini, untuk orang orang baru \nBronze : Rank Kedua, Permission sama seperti member \nSilver : Rank Ketiga \nGold : Rank Keempat \nPlatinum : Rank Kelima \nCristal : Rank keenam \nAdmiral : Rank ketujuh / Rank Tertinggi di server \nHati-Hati kalian juga bisa derank lho!! Dengan nge spam , brisik saat main game , dan hal-hal yang kurang berkenan bagi orang lain./n HAVE FUN EVERYONE! ');
+        message.channel.sendMessage('Ada 7 Rank di server DB Gaming. Cara naik rank adalah dengan main bersama.\nMember : Rank Pertama di Server ini, untuk orang orang baru \nBronze : Rank Kedua, Permission sama seperti member \nSilver : Rank Ketiga \nGold : Rank Keempat \nPlatinum : Rank Kelima \nCristal : Rank keenam \nAdmiral : Rank ketujuh / Rank Tertinggi di server \nHati-Hati kalian juga bisa derank lho!! Dengan nge spam , brisik saat main game , dan hal-hal yang kurang berkenan bagi orang lain.\n HAVE FUN EVERYONE! ');
     }
     
     if(message.content == '!credits') {
