@@ -13,7 +13,7 @@ bot.on('message', (message) => {
     }
     
     if(message.content == '!credits') {
-        message.channel.sendMessage('Bot ini dibuat oleh Sean Edbert \n Coding : Sean Edbert \n Design Rank : Sean Edbert dan Ryan Theodorus \n Designer Logo : Yosua Raffel ');
+        message.channel.sendMessage('Bot ini dibuat oleh Sean Edbert \n Pembuat Server : Ryan Theodorus \n Coding : Sean Edbert \n Design Rank : Sean Edbert dan Ryan Theodorus \n Designer Logo : Yosua Raffel ');
     }
 
         
