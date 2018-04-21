@@ -23,6 +23,10 @@ bot.on('message', (message) => {
     if(message.content == 'vote2') {
         message.reply('HAS VOTED 2');
     }
+    
+    if(message.content == 'spam!!!') {
+        message.reply('HAS DERANKED BECAUSE OF SPAMMING!! DONT SPAM GAMERS!!');
+    }
 
 });
 
