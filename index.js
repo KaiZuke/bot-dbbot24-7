@@ -25,7 +25,7 @@ bot.on('message', (message) => {
     }
     
     if(message.content == 'spam!!!') {
-        message.reply('THE SPAMMER HAS DERANKED BECAUSE OF SPAMMING!! DONT SPAM GAMERS!!');
+        message.channel.sendMessage('THE SPAMMER HAS DERANKED BECAUSE OF SPAMMING!! DONT SPAM GAMERS!!');
     }
 
 });
