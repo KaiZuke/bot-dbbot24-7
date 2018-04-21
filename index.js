@@ -15,8 +15,14 @@ bot.on('message', (message) => {
     if(message.content == '!credits') {
         message.channel.sendMessage('Bot ini dibuat oleh Sean Edbert \n Pembuat Server : Ryan Theodorus \n Coding : Sean Edbert \n Design Rank : Sean Edbert dan Ryan Theodorus \n Designer Logo : Yosua Raffel ');
     }
-
-        
+    
+     if(message.content == 'vote1') {
+        message.reply('HAS VOTED 1');
+     }
+    
+    if(message.content == 'vote2') {
+        message.reply('HAS VOTED 2');
+    }
 
 });
 
