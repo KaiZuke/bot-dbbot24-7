@@ -9,15 +9,15 @@ bot.on('message', (message) => {
     }
 
     if(message.content == '!ranks') {
-        message.channel.sendMessage('Ada 7 Rank di server DB Gaming. Cara naik rank adalah dengan main bersama.\nMember : Rank Pertama di Server ini, untuk orang orang baru \nBronze : Rank Kedua, Permission sama seperti member \nSilver : Rank Ketiga \nGold : Rank Keempat \nPlatinum : Rank Kelima \nCristal : Rank keenam \nAdmiral : Rank ketujuh / Rank Tertinggi di server \nHati-Hati kalian juga bisa derank lho!! Dengan nge spam , brisik saat main game , dan hal-hal yang kurang berkenan bagi orang lain.\n HAVE FUN EVERYONE! ');
+        message.channel.sendMessage('Ada 7 Rank di server DB Gaming. Cara naik rank adalah dengan main bersama.\nMember : Rank Pertama di Server ini, untuk orang orang baru \nBronze : Rank Kedua, Permission sama seperti member \nSilver : Rank Ketiga \nGold : Rank Keempat \nPlatinum : Rank Kelima \nCristal : Rank keenam \nAdmiral : Rank ketujuh / Rank Tertinggi di server \nHati-Hati kalian juga bisa derank lho!! Dengan nge spam , brisik saat main game , dan hal-hal yang kurang berkenan bagi orang lain.\nKeterangan Cara DERANK lebih lanjut ketik "?derank"\n HAVE FUN EVERYONE! ');
     }
     
     if(message.content == '!credits') {
         message.channel.sendMessage('Bot ini dibuat oleh Sean Edbert \n Pembuat Server : Ryan Theodorus \n Coding : Sean Edbert \n Design Rank : Sean Edbert dan Ryan Theodorus \n Designer Logo : Yosua Raffel ');
     }
     
-     if(message.content == 'vote1') {
-        message.reply('HAS VOTED 1');
+     if(message.content == '?derank') {
+        message.reply('Cara derank adalah dengan mengganggu orang yang sedang bermain dengan play "EARRAPE" atau dengan membuat suara brisik seperti meniup microphone, bertriak, dan lain-lain.\nKalian juga bisa derank dengan mengespam di chat ');
      }
     
     if(message.content == 'vote2') {
