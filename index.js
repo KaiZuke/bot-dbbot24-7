@@ -5,7 +5,7 @@ bot.on('ready', () => { bot.user.setGame('say !help') });
 bot.on('message', (message) => {
 
     if(message.content == '!help') {
-        message.channel.sendMessage('Hi There! Saya adalah AI yang dibuat oleh KaiZuke atau Sean Edbert \n Tugas saya adaah membantu kamu yang memerlukan bantuan! \n COMMANDS : \n !ranks \n !credits ');
+        message.channel.sendMessage('Hi There! Saya adalah AI yang dibuat oleh KaiZuke atau Sean Edbert \n Tugas saya adalah membantu kamu yang memerlukan bantuan! \n COMMANDS : \n !ranks \n !credits ');
     }
 
     if(message.content == '!ranks') {
@@ -20,8 +20,8 @@ bot.on('message', (message) => {
         message.reply('Cara derank adalah dengan mengganggu orang yang sedang bermain dengan play "EARRAPE" atau dengan membuat suara brisik seperti meniup microphone, bertriak, dan lain-lain.\nKalian juga bisa derank dengan mengespam di chat ');
      }
     
-    if(message.content == 'vote2') {
-        message.reply('HAS VOTED 2');
+    if(message.content == 'Kicked eric') {
+        message.reply('User : GhostChi has been kicked.\nReason : You have been voted off with Maxwell , William , Bagas , Aldo. "Goblok , kontol , autis." -Maxwell');
     }
     
     if(message.content == 'spam!!!') {
