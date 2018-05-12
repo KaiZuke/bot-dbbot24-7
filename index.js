@@ -1,21 +1,9 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const PREFIX = "!"
 
 bot.on('ready', () => { bot.user.setGame('say !help') });
 bot.on('message', (message) => {
 
-    if(message.content.startwith(PREFIX)) return;
-    
-    var args = message.content.substring(PREFIX.legth).split(" ");
-    
-    switch (args[0].toLowercase()) {
-            case "say"
-                const sayMessage = args.join(" ");
-                message.delete().catch(O_o=>{}); 
-                message.channel.send(SayMessage)
-    }
-    
     
     
     if(message.content == '!help') {
