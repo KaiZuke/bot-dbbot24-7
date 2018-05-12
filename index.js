@@ -11,6 +11,7 @@ bot.on('message', (message) => {
     
     switch (args[0].toLowercase()) {
             case "say"
+                const sayMessage = args.join(" ");
                 message.delete().catch(O_o=>{}); 
                 message.channel.send(SayMessage)
     }
