@@ -1,9 +1,22 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
+const PREFIX = "!"
 
 bot.on('ready', () => { bot.user.setGame('say !help') });
 bot.on('message', (message) => {
 
+    if(message.content.startwith(PREFIX)) return;
+    
+    var args = message.content.substring(PREFIX.legth).split(" ");
+    
+    switch (args[0].toLowercase()) {
+            case "say"
+                message.delete().catch(O_o=>{}); 
+                message.channel.send(SayMessage)
+    }
+    
+    
+    
     if(message.content == '!help') {
         message.channel.sendMessage('Hi There! Saya adalah AI yang dibuat oleh KaiZuke atau Sean Edbert \n Tugas saya adalah membantu kamu yang memerlukan bantuan! \n COMMANDS : \n !ranks untuk melihat rank apa saja di server ini \n !credits untuk melihat credits \n ?derank untuk mengetahui lebih lanjut cara derank \n !kick untuk mengetahui aturan KICK dan BAN ');
     }
