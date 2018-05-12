@@ -5,7 +5,7 @@ bot.on('ready', () => { bot.user.setGame('say !help') });
 bot.on('message', (message) => {
 
     if(message.content == '!help') {
-        message.channel.sendMessage('Hi There! Saya adalah AI yang dibuat oleh KaiZuke atau Sean Edbert \n Tugas saya adalah membantu kamu yang memerlukan bantuan! \n COMMANDS : \n !ranks \n !credits \n ?derank \n?kick ');
+        message.channel.sendMessage('Hi There! Saya adalah AI yang dibuat oleh KaiZuke atau Sean Edbert \n Tugas saya adalah membantu kamu yang memerlukan bantuan! \n COMMANDS : \n !ranks untuk melihat rank apa saja di server ini \n !credits untuk melihat credits \n ?derank untuk mengetahui lebih lanjut cara derank \n!kick untuk mengetahui aturan KICK dan BAN ');
     }
 
     if(message.content == '!ranks') {
@@ -29,7 +29,7 @@ bot.on('message', (message) => {
     }
     
     if(message.content == '!kick') {
-        message.channel.sendMessage('ATURAN KICK :\n 1. Jika ingin mengeKICK seseorang, kumpulkanlah minimal 3 orang yang ingin mengekick orang tersebut.\n 2. Orang sudah terKICK ? Tenang kalian bisa invite lagi kok.\n 3. Ingin orang tersebut kena BANNED ? kumpulkan lebih dari 5 orang yang ingin orang tersebut terBANNED dari server.\n 4. Ingin memulai VOTE KICK ? Hubungi Admin server.\nADMIN SERVER TIDAK TERLIBAT DALAM PERMASALAHAN KICK.\natau N E T R A L');
+        message.channel.sendMessage('ATURAN KICK :\n1. Jika ingin mengeKICK seseorang, kumpulkanlah minimal 3 orang yang ingin mengekick orang tersebut.\n2. Orang sudah terKICK ? Tenang kalian bisa invite lagi kok.\n3. Ingin orang tersebut kena BANNED ? kumpulkan lebih dari 5 orang yang ingin orang tersebut terBANNED dari server.\n4. Ingin memulai VOTE KICK ? Hubungi Admin server.\nADMIN SERVER TIDAK TERLIBAT DALAM PERMASALAHAN KICK.\natau N E T R A L');
     }
 
 });
