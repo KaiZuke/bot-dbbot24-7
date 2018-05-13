@@ -11,7 +11,7 @@ bot.on('message', (message) => {
     
         
     if(message.content.includes("!say") {
-       bot.sendMessage(txt.replace('!say);
+       bot.sendMessage(txt.replace('!say');
     };
     break;
         
