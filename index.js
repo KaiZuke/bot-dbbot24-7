@@ -10,7 +10,7 @@ bot.on('message', (message) => {
     }
     
     if(message.content.includes("!say") {
-       bot.sendMessage({ to: channel, message: txt.replace('!say ','') });
+       bot.sendMessage(txt.replace('!say);
     }
        
     if(message.content == '!help') {
