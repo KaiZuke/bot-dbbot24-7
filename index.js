@@ -26,6 +26,7 @@ bot.on('message', (message) => {
     }
     
     if(message.content == 'spam!!!') {
+        message.delete().catch(O_o=>{}); 
         message.channel.sendMessage('THE SPAMMER HAS DERANKED BECAUSE OF SPAMMING!! DONT SPAM GAMERS!!');
     }
     
