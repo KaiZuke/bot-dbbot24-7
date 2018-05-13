@@ -7,14 +7,10 @@ bot.on('message', (message) => {
     
      if(message.content.indexOf(config.prefix) !== 0) return;
     
-     const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
-  const message.content = args.shift().toLowerCase();
-    
-     if(message.content == "say") {
-    const sayMessage = args.join(" ");
-    message.delete().catch(O_o=>{}); 
-    message.channel.send(sayMessage);
-  }
+   const swearWords = ["anjg", "bgst", "tai", "kntl"];
+    if( swearWords.some(word => message.content.toLowerCase().includes(word)) ) {
+     message.reply("Oh no you said a bad word!!!");
+    }
     
     if(message.content == '!help') {
         message.channel.sendMessage('Hi There! Saya adalah AI yang dibuat oleh KaiZuke atau Sean Edbert \n Tugas saya adalah membantu kamu yang memerlukan bantuan! \n COMMANDS : \n !ranks untuk melihat rank apa saja di server ini \n !credits untuk melihat credits \n ?derank untuk mengetahui lebih lanjut cara derank \n !kick untuk mengetahui aturan KICK dan BAN ');
