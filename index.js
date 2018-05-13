@@ -1,11 +1,8 @@
 const Discord = require('discord.js');
-const PREFIX = "!";
 const bot = new Discord.Client();
 
 bot.on('ready', () => { bot.user.setGame('say !help') });
 bot.on('message', (message) => {
-    
-     if(message.content.indexOf(config.prefix) !== 0) return;
     
    const swearWords = ["anjg", "bgst", "tai", "kntl"];
     if( swearWords.some(word => message.content.toLowerCase().includes(word)) ) {
