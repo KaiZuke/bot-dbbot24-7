@@ -6,7 +6,7 @@ bot.on('message', (message) => {
     
    const swearWords = ["anjg", "bgst", "tai", "kntl", "anjing", "kontol", "bangsat", "titit", "goblok", "ngentot", "tolol", "tot"];
     if( swearWords.some(word => message.content.toLowerCase().includes(word)) ) {
-     message.reply("Oh no you said a bad word!!!");
+     message.reply("Tiati omongannya y!");
     }
     
     if(message.content == '!help') {
