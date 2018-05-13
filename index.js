@@ -4,10 +4,14 @@ const bot = new Discord.Client();
 bot.on('ready', () => { bot.user.setGame('say !help') });
 bot.on('message', (message) => {
     
-    if (fromID === me && text.includes("!say") ) {
-        message.delete().catch(O_o=>{}); 
-    bot.sendMessage({ to: channel, message: txt.replace('!say ','') });
-    }
+    case "say":
+message.delete()
+if (message.content.startsWith("!say")) {
+message.channel.sendMessage((message.author.username) + " says: " + (message.content.replace('!say ','')));
+};
+break;
+
+
     
    const swearWords = ["anjg", "bgst", "tai", "kntl", "anjing", "kontol", "bangsat", "titit", "goblok", "ngentot", "tolol", "tot", "asu"];
     if( swearWords.some(word => message.content.toLowerCase().includes(word)) ) {
