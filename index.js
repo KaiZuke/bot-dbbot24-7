@@ -44,6 +44,7 @@ bot.on('message', (message) => {
     }
     
     if(message.content == 'UP_DATE_V3.1') {
+            message.delete().catch(O_o=>{});
         message.channel.sendMessage('DB BOT HAS BEEN UPDATED! VERSION 3.1\nCHANGE LOG : Updated !ranks');
     }
 });
