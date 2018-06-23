@@ -19,7 +19,7 @@ bot.on('message', (message) => {
     }
 
     if(message.content == '!ranks') {
-        message.channel.sendMessage('Ada 7 Rank di server DB Gaming. Cara naik rank adalah dengan main bersama.\nMember : Rank Pertama di Server ini, untuk orang orang baru \nBronze : Rank Kedua, Permission sama seperti member \nSilver : Rank Ketiga \nGold : Rank Keempat \nPlatinum : Rank Kelima \nCristal : Rank keenam \nAdmiral : Rank ketujuh \nGenesis : Rank kedelapan / Rank tertinggi di server \nHati-Hati kalian juga bisa derank lho!! Dengan nge spam , brisik saat main game , dan hal-hal yang kurang berkenan bagi orang lain.\nKeterangan Cara DERANK lebih lanjut ketik "?derank"\n HAVE FUN EVERYONE! ');
+        message.channel.sendMessage('Ada 7 Rank di server DB Gaming. Cara naik rank adalah dengan main bersama.\nMember : Rank Pertama di Server ini\n Permission : Tidak Ada \nBronze : Rank Kedua\n Permission sama seperti member \nSilver : Rank Ketiga\n Permission sama seperti member \nGold : Rank Keempat\n Permission sama seperti member \nPlatinum : Rank Kelima\n Permission : Dapat memindahkan user lain ke call lain di kategori GAMES \nCristal : Rank keenam\n Permission : Dapat memindahkan user lain ke call lain \nAdmiral : Rank ketujuh\n Permission : Dapat memindahkan user lain ke call lain dan Dapat mengubah NICKNAME user lain  \nGenesis : Rank kedelapan / Rank tertinggi di server\n Permisson : Dapat memindahkan user lain ke call lain , mengubah NICKNAME user lain , dan Dapat menggunakan "SERVER MUTE" dan "SERVER DEAFEN" \nHati-Hati kalian juga bisa derank lho!! Dengan nge spam , brisik saat main game , dan hal-hal yang kurang berkenan bagi orang lain.\nKeterangan Cara DERANK lebih lanjut ketik "?derank"\n HAVE FUN EVERYONE! ');
     }
     
     if(message.content == '!credits') {
@@ -43,7 +43,9 @@ bot.on('message', (message) => {
         message.channel.sendMessage('ATURAN KICK :\n1. Jika ingin mengeKICK seseorang, kumpulkanlah minimal 3 orang yang ingin mengekick orang tersebut.\n2. Orang sudah terKICK ? Tenang kalian bisa invite lagi kok.\n3. Ingin orang tersebut kena BANNED ? kumpulkan lebih dari 5 orang yang ingin orang tersebut terBANNED dari server.\n4. Ingin memulai VOTE KICK ? Hubungi Admin server.\nADMIN SERVER TIDAK TERLIBAT DALAM PERMASALAHAN KICK.\natau N E T R A L');
     }
     
-    
+    if(message.content == 'UP_DATE_V3.1') {
+        message.channel.sendMessage('DB BOT HAS BEEN UPDATED! VERSION 3.1\nCHANGE LOG : Updated !ranks');
+    }
 });
 
 bot.login(process.env.BOT_TOKEN);
