@@ -50,6 +50,7 @@ bot.on('message', (message) => {
         
      if(message.content == '!Check_Bot') {
         message.channel.sendMessage('DB BOT IS ONLINE !\nVer. 3.1');
+     }
 });
 
 bot.login(process.env.BOT_TOKEN);
