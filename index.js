@@ -47,6 +47,11 @@ bot.on('message', (message) => {
             message.delete().catch(O_o=>{});
         message.channel.sendMessage('DB BOT HAS BEEN UPDATED! VERSION 3.1\nCHANGE LOG : Updated !ranks');
     }
+    
+    if(message.content == 'Winner!YAY') {
+            message.delete().catch(O_o=>{});
+        message.channel.sendMessage('The GENESIS POLLING WINNER! : @kael#9583\nCongratz!!!');
+    }
         
      if(message.content == '!Check_Bot') {
         message.channel.sendMessage('DB BOT IS ONLINE !\nVer. 3.1');
