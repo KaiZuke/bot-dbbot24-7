@@ -8,6 +8,21 @@ bot.on('message', (message) => {
     if( swearWords.some(word => message.content.toLowerCase().includes(word)) ) {
      message.reply("Tiati omongannya y!");
     }
+    
+    client.on("message", async message => {
+
+  if(message.author.bot) return;
+  
+  if(message.content.indexOf(config.prefix) !== 0) return;
+            
+  const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+  const command = args.shift().toLowerCase();
+        
+     if(command === "say") {
+    const sayMessage = args.join(" ");
+    message.delete().catch(O_o=>{}); 
+    message.channel.send(sayMessage);
+  }
         
      if(message.content == 'NEW_RANK_DUD') {
              message.delete().catch(O_o=>{});
