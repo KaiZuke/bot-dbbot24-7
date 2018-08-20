@@ -3,8 +3,7 @@ const bot = new Discord.Client();
 
 bot.on('ready', () => { bot.user.setGame('say !help') });
 bot.registery.registerGroup('random', 'Random');
-bot.registery.registerDefaults();
-bot.registery.registerCommandsIn(__dirname + "/commands");
+bot.registery.registerCommandsIn(__dirname + "/bot-dbbot24-7");
 bot.on('message', (message) => {
         
    const swearWords = ["anjg", "bgst", "tai", "kntl", "anjing", "kontol", "bangsat", "titit", "goblok", "ngentot", "tolol", "tot", "asu"];
