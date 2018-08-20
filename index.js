@@ -9,9 +9,9 @@ bot.on('message', (message) => {
      message.reply("Tiati omongannya y!");
     }
         
-     if(message.content == 'NEW_RANK_DUD') {
+     if(message.content == 'cie_jadian?') {
              message.delete().catch(O_o=>{});
-        message.channel.sendMessage('ATTENTION!\nNEW RANK JUST CREATED CALLED "GENESIS"\nTHIS WILL BE THE HIGHEST RANK IN THIS SERVER!');
+        message.channel.sendMessage('Selamat! Hari ini akhirnya teman kita sudah punya PASANGAN!\nMaxwell n Aurel 20/8/18\nLONG LAST!');
     }
 
      if(message.content == '!help') {
