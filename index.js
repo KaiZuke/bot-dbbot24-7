@@ -9,13 +9,13 @@ bot.on('message', (message) => {
      message.reply("Tiati omongannya y!");
     }
         
-     if(message.content == 'cie_jadian?') {
+     if(message.content == '!challenge') {
              message.delete().catch(O_o=>{});
-        message.channel.sendMessage('Selamat! Hari ini akhirnya teman kita sudah punya PASANGAN!\nMaxwell n Aurel 20/8/18\nLONG LAST!');
+        message.channel.sendMessage('Challenge salah satu anggota grup ini dalam 1v1 csgo (Senjata Apapun).\nYang menang akan naik rank dan yang kalah akan turun rank :D.\nGOOD LUCK HAVE FUN!');
     }
 
      if(message.content == '!help') {
-        message.channel.sendMessage('Hi There! Saya adalah AI yang dibuat oleh KaiZuke atau Sean Edbert \n Tugas saya adalah membantu kamu yang memerlukan bantuan! \n COMMANDS : \n !ranks untuk melihat rank apa saja di server ini \n !credits untuk melihat credits \n ?derank untuk mengetahui lebih lanjut cara derank \n !kick untuk mengetahui aturan KICK dan BAN ');
+        message.channel.sendMessage('Hi There! Saya adalah AI yang dibuat oleh KaiZuke atau Sean Edbert \n Tugas saya adalah membantu kamu yang memerlukan bantuan! \n COMMANDS : \n !ranks untuk melihat rank apa saja di server ini \n !credits untuk melihat credits\n !challenge = ? \n ?derank untuk mengetahui lebih lanjut cara derank \n !kick untuk mengetahui aturan KICK dan BAN ');
     }
 
     if(message.content == '!ranks') {
