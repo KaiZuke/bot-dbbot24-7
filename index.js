@@ -4,6 +4,9 @@ const bot = new Discord.Client();
 bot.on('ready', () => { bot.user.setGame('say !help') });
 bot.on('message', (message) => {
         
+    const args = message.content.slice(prefix.length).trim().split(/ +/g);
+    const command = args.shift().toLowerCase();
+        
    const swearWords = ["anjg", "bgst", "tai", "kntl", "anjing", "kontol", "bangsat", "titit", "goblok", "ngentot", "tolol", "tot", "asu"];
     if( swearWords.some(word => message.content.toLowerCase().includes(word)) ) {
      message.reply("Tiati omongannya y!");
