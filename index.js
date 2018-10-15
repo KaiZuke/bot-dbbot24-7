@@ -22,6 +22,7 @@ bot.on('message', (message) => {
      if(message.content == '!challenge') {
            let member = message.mentions.members.first();
              message.reply('has challenged (member) to a 1v1 battle!')
+     }
 
      if(message.content == '!help') {
         message.channel.sendMessage('Hi There! Saya adalah AI yang dibuat oleh KaiZuke atau Sean Edbert \n Tugas saya adalah membantu kamu yang memerlukan bantuan! \n COMMANDS : \n !ranks untuk melihat rank apa saja di server ini \n !credits untuk melihat credits\n !challenge = ? \n ?derank untuk mengetahui lebih lanjut cara derank \n !kick untuk mengetahui aturan KICK dan BAN ');
