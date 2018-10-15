@@ -27,6 +27,10 @@ bot.on('message', (message) => {
      if(message.content == '!help') {
         message.channel.sendMessage('Hi There! Saya adalah AI yang dibuat oleh KaiZuke atau Sean Edbert \n Tugas saya adalah membantu kamu yang memerlukan bantuan! \n COMMANDS : \n !ranks untuk melihat rank apa saja di server ini \n !credits untuk melihat credits\n ?challenge = challenge help \n ?derank untuk mengetahui lebih lanjut cara derank \n ?kick untuk mengetahui aturan KICK dan BAN ');
     }
+    
+    if(message.content == 'dn!help') {
+        message.channel.sendMessage('DayNight Music BOT dibuat oleh KaiZuke\n- dn!play (nama lagu atau link lagu youtube) = play lagu\n-dn!join = membuat BOT join ke channel\n-dn!list = mengetahui berapa lagu di antrian\n-dn!pause = pause lagu\n-dn!resume = resume lagu yang sedang di pause\nMungkin kalian semua bingung kenapa gw buat bot ini karena udah ada FreddieBot.\nGw bikin DNMusicBot ini berbahasa indonesia supaya maxwell ngerti.\n U know la Maxwell kennot speak english ehe.');
+    }
 
     if(message.content == '!ranks') {
         message.channel.sendMessage('Ada 7 Rank di server DB Gaming. Cara naik rank adalah dengan main bersama.\nMember : Rank Pertama di Server ini\n Permission : Tidak Ada \nBronze : Rank Kedua\n Permission sama seperti member \nSilver : Rank Ketiga\n Permission sama seperti member \nGold : Rank Keempat\n Permission sama seperti member \nPlatinum : Rank Kelima\n Permission : Dapat memindahkan user lain ke call lain di kategori GAMES \nCristal : Rank keenam\n Permission : Dapat memindahkan user lain ke call lain \nAdmiral : Rank ketujuh\n Permission : Dapat memindahkan user lain ke call lain dan Dapat mengubah NICKNAME user lain  \nGenesis : Rank kedelapan / Rank tertinggi di server\n Permisson : Dapat memindahkan user lain ke call lain , mengubah NICKNAME user lain , dan Dapat menggunakan "SERVER MUTE" dan "SERVER DEAFEN" \nHati-Hati kalian juga bisa derank lho!! Dengan nge spam , brisik saat main game , dan hal-hal yang kurang berkenan bagi orang lain.\nKeterangan Cara DERANK lebih lanjut ketik "?derank"\n HAVE FUN EVERYONE! ');
