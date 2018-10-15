@@ -15,17 +15,17 @@ bot.on('message', (message) => {
   member.kick(reason);
 }
         
-     if(message.content == '!challenge') {
+     if(message.content == '?challenge') {
         message.channel.sendMessage('Challenge salah satu anggota grup ini dalam 1v1 csgo (Senjata Apapun).\nYang menang akan naik rank dan yang kalah akan turun rank :D.\nGOOD LUCK HAVE FUN!');
     }
      
      if(message.content == '!challenge') {
            let member = message.mentions.members.first();
-             message.reply('has challenged (member) to a 1v1 battle!')
+             message.reply('has challenged "member" to a 1v1 battle!')
      }
 
      if(message.content == '!help') {
-        message.channel.sendMessage('Hi There! Saya adalah AI yang dibuat oleh KaiZuke atau Sean Edbert \n Tugas saya adalah membantu kamu yang memerlukan bantuan! \n COMMANDS : \n !ranks untuk melihat rank apa saja di server ini \n !credits untuk melihat credits\n !challenge = ? \n ?derank untuk mengetahui lebih lanjut cara derank \n !kick untuk mengetahui aturan KICK dan BAN ');
+        message.channel.sendMessage('Hi There! Saya adalah AI yang dibuat oleh KaiZuke atau Sean Edbert \n Tugas saya adalah membantu kamu yang memerlukan bantuan! \n COMMANDS : \n !ranks untuk melihat rank apa saja di server ini \n !credits untuk melihat credits\n ?challenge = challenge help \n ?derank untuk mengetahui lebih lanjut cara derank \n !kick untuk mengetahui aturan KICK dan BAN ');
     }
 
     if(message.content == '!ranks') {
