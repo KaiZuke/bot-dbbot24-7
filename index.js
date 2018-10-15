@@ -25,7 +25,7 @@ bot.on('message', (message) => {
      }
 
      if(message.content == '!help') {
-        message.channel.sendMessage('Hi There! Saya adalah AI yang dibuat oleh KaiZuke atau Sean Edbert \n Tugas saya adalah membantu kamu yang memerlukan bantuan! \n COMMANDS : \n !ranks untuk melihat rank apa saja di server ini \n !credits untuk melihat credits\n ?challenge = challenge help \n ?derank untuk mengetahui lebih lanjut cara derank \n !kick untuk mengetahui aturan KICK dan BAN ');
+        message.channel.sendMessage('Hi There! Saya adalah AI yang dibuat oleh KaiZuke atau Sean Edbert \n Tugas saya adalah membantu kamu yang memerlukan bantuan! \n COMMANDS : \n !ranks untuk melihat rank apa saja di server ini \n !credits untuk melihat credits\n ?challenge = challenge help \n ?derank untuk mengetahui lebih lanjut cara derank \n ?kick untuk mengetahui aturan KICK dan BAN ');
     }
 
     if(message.content == '!ranks') {
@@ -49,7 +49,7 @@ bot.on('message', (message) => {
         message.channel.sendMessage('THE SPAMMER HAS DERANKED BECAUSE OF SPAMMING!! DONT SPAM GAMERS!!');
     }
     
-    if(message.content == '!kick') {
+    if(message.content == '?kick') {
         message.channel.sendMessage('ATURAN KICK :\n1. Jika ingin mengeKICK seseorang, kumpulkanlah minimal 3 orang yang ingin mengekick orang tersebut.\n2. Orang sudah terKICK ? Tenang kalian bisa invite lagi kok.\n3. Ingin orang tersebut kena BANNED ? kumpulkan lebih dari 5 orang yang ingin orang tersebut terBANNED dari server.\n4. Ingin memulai VOTE KICK ? Hubungi Admin server.\nADMIN SERVER TIDAK TERLIBAT DALAM PERMASALAHAN KICK.\natau N E T R A L');
     }
     
