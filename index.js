@@ -55,6 +55,12 @@ bot.on('message', (message) => {
      if(message.content == '!check_bot') {
         message.channel.sendMessage('DB BOT IS ONLINE !\nVer. 3.1');
      }
+        
+     if(command === "say"){
+  let text = args.join(" ");
+  message.delete();
+  message.channel.send(text);
+}
 });
 
 bot.login(process.env.BOT_TOKEN);
