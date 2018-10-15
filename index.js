@@ -11,6 +11,12 @@ bot.on('message', (message) => {
     if( swearWords.some(word => message.content.toLowerCase().includes(word)) ) {
      message.reply("Tiati omongannya y!");
     }
+        if(command === 'ping') {
+  message.channel.send('Pong!');
+} else
+if (command === 'blah') {
+  message.channel.send('Meh.');
+}
         
      if(message.content == '!challenge') {
         message.channel.sendMessage('Challenge salah satu anggota grup ini dalam 1v1 csgo (Senjata Apapun).\nYang menang akan naik rank dan yang kalah akan turun rank :D.\nGOOD LUCK HAVE FUN!');
