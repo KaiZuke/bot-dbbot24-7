@@ -20,8 +20,8 @@ bot.on('message', (message) => {
     }
      
      if(message.content == '!challenge') {
-           let member = message.mentions.members.first();
-             message.reply('has challenged "member" to a 1v1 battle!')
+           let text = args.join(" ");
+             message.reply('has challenged (text) to a 1v1 battle!')
      }
 
      if(message.content == '!help') {
