@@ -4,19 +4,10 @@ const bot = new Discord.Client();
 bot.on('ready', () => { bot.user.setGame('say !help') });
 bot.on('message', (message) => {
         
-    const args = message.content.slice(prefix.length).trim().split(/ +/g);
-    const command = args.shift().toLowerCase();
-        
    const swearWords = ["anjg", "bgst", "tai", "kntl", "anjing", "kontol", "bangsat", "titit", "goblok", "ngentot", "tolol", "tot", "asu"];
     if( swearWords.some(word => message.content.toLowerCase().includes(word)) ) {
      message.reply("Tiati omongannya y!");
     }
-        if(command === 'ping') {
-  message.channel.send('Pong!');
-} else
-if (command === 'blah') {
-  message.channel.send('Meh.');
-}
         
      if(message.content == '!challenge') {
         message.channel.sendMessage('Challenge salah satu anggota grup ini dalam 1v1 csgo (Senjata Apapun).\nYang menang akan naik rank dan yang kalah akan turun rank :D.\nGOOD LUCK HAVE FUN!');
@@ -65,9 +56,9 @@ if (command === 'blah') {
         message.channel.sendMessage('DB BOT IS ONLINE !\nVer. 3.1');
      }
         
-     if(command === "say"){
+     if(message.content == "!say"){
   let text = args.join(" ");
-  message.delete();
+  message.delete().catch(O_o=>{});
   message.channel.send(text);
 }
 });
