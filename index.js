@@ -4,6 +4,19 @@ const bot = new Discord.Client();
 bot.on('ready', () => { bot.user.setGame('say !help') });
 bot.on('message', (message) => {
         
+        if (message.author.bot) return;
+  if (message.content.indexOf(config.prefix) !== 0) return;
+ 
+  const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+  const command = args.shift().toLowerCase();
+ 
+  if(command === 'ping') {
+    message.channel.send('Pong!');
+  } else
+  if (command === 'blah') {
+    message.channel.send('Meh.');
+  }
+        
    const swearWords = ["anjg", "bgst", "tai", "kntl", "anjing", "kontol", "bangsat", "titit", "goblok", "ngentot", "tolol", "tot", "asu"];
     if( swearWords.some(word => message.content.toLowerCase().includes(word)) ) {
      message.reply("Tiati omongannya y!");
@@ -56,7 +69,7 @@ bot.on('message', (message) => {
         message.channel.sendMessage('DB BOT IS ONLINE !\nVer. 3.1');
      }
         
-     if(message.content == "!say"){
+     if(command === "say"){
   let text = args.join(" ");
   message.delete().catch(O_o=>{});
   message.channel.send(text);
