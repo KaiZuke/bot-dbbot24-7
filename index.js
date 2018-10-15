@@ -21,7 +21,7 @@ bot.on('message', (message) => {
      
      if(message.content == '!challenge') {
            let text = args.join(" ");
-             message.reply('has challenged (text) to a 1v1 battle!')
+             message.channel.sendMessage(text)
      }
 
      if(message.content == '!help') {
