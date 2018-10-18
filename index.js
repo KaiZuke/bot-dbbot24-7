@@ -9,12 +9,52 @@ bot.on('message', (message) => {
      message.reply("Tiati omongannya y!");
     }
         
-    if(message.content == '!challenge ${<USER>}') {
-            message.reply('HAS CHALLENGED MAXWELL\n${<USER>} Do you accept this challenge?\n!y or !n')
+    if(message.content == '!challenge maxwell') {
+            message.reply('HAS CHALLENGED MAXWELL\n@Mitsuha#5956 Do you accept this challenge?\n!y or !n')
     }
         
         if(message.content == '!challenge sean') {
-            message.reply('HAS CHALLENGED MAXWELL\n@KaiZuke#8350 Do you accept this challenge?\n!y or !n')
+            message.reply('HAS CHALLENGED SEAN\n@KaiZuke#8350 Do you accept this challenge?\n!y or !n')
+        }
+        
+             if(message.content == '!challenge bagas') {
+            message.reply('HAS CHALLENGED BAGAS\n@✞Nigward✞#9980 Do you accept this challenge?\n!y or !n')
+        }
+        
+        if(message.content == '!challenge tobi') {
+            message.reply('HAS CHALLENGED TOBI\n@TOBETM#7203 Do you accept this challenge?\n!y or !n')
+         }
+        
+        if(message.content == '!challenge aurel') {
+            message.reply('HAS CHALLENGED AUREL\n@kael#9583 Do you accept this challenge?\n!y or !n')
+        }
+        
+        if(message.content == '!challenge vincent') {
+            message.reply('HAS CHALLENGED VINCENT\n@HusTLe#9285 Do you accept this challenge?\n!y or !n')
+        }        
+        
+        if(message.content == '!challenge william') {
+            message.reply('HAS CHALLENGED WILLIAM\n@Nana#2610 Do you accept this challenge?\n!y or !n')
+        }        
+        
+        if(message.content == '!challenge falcon') {
+            message.reply('HAS CHALLENGED VINCENT\n@HusTLe#9285 Do you accept this challenge?\n!y or !n')
+        }        
+        
+        if(message.content == '!challenge bryan') {
+            message.reply('HAS CHALLENGED VINCENT\n@falcon#6643 Do you accept this challenge?\n!y or !n')
+        }        
+        
+        if(message.content == '!challenge vincent') {
+            message.reply('HAS CHALLENGED VINCENT\n@falcon#6643 Do you accept this challenge?\n!y or !n')
+        }        
+        
+        if(message.content == '!y') {
+                message.reply('HAS ACCEPTED THE CHALLENGE!\nGOOD LUCK HAVE FUN!')
+        }
+        
+        if(message.content == '!n') {
+                message.reply('HAS DECLINED THE CHALLENGE!\npussy.')
         }
         
      if(message.content == '?challenge') {
