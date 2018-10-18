@@ -19,8 +19,8 @@ bot.on('message', (message) => {
         message.channel.sendMessage('Challenge salah satu anggota grup ini dalam 1v1 csgo (Senjata Apapun).\nYang menang akan naik rank dan yang kalah akan turun rank :D.\nGOOD LUCK HAVE FUN!');
     }
      
-     if(message.content == '!challenge') {
-           const text = args.join(" ");
+        const text = args.join(" ");
+        if(message.content == '!say') {
              message.channel.sendMessage(text)
      }
 
