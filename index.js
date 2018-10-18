@@ -99,9 +99,8 @@ bot.on('message', (message) => {
         message.channel.sendMessage('DB BOT HAS BEEN UPDATED! VERSION 3.2\nCHANGE LOG : Fixed Bugs !');
     }
     
-    if(message.content == 'Winner!YAY') {
-            message.delete().catch(O_o=>{});
-        message.channel.sendMessage('The GENESIS POLLING WINNER! : @kael#9583\nCongratz!!!');
+    if(message.content == '!request') {
+        message.reply('has requested to be in the challenge.');
     }
         
      if(message.content == '!check_bot') {
