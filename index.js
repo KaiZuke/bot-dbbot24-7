@@ -18,7 +18,7 @@ bot.on('message', (message) => {
         }
         
              if(message.content == '!challenge bagas') {
-            message.reply('HAS CHALLENGED BAGAS\n@✞Nigward✞#9980 Do you accept this challenge?\n!y or !n')
+            message.reply('HAS CHALLENGED BAGAS\n<@273751740539469824> Do you accept this challenge?\n!y or !n')
         }
         
         if(message.content == '!challenge tobi') {
