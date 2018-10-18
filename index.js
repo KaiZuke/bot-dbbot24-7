@@ -9,21 +9,17 @@ bot.on('message', (message) => {
      message.reply("Tiati omongannya y!");
     }
         
-        if (message.content == '!kick') {
-  let member = message.mentions.members.first();
-  let reason = args.slice(1).join(" ");
-  member.kick(reason);
-}
+    if(message.content == '!challenge maxwell') {
+            message.reply('HAS CHALLENGED MAXWELL\n@Mitsuha#5956 Do you accept this challenge?\n!y or !n')
+    }
+        
+        if(message.content == '!challenge sean') {
+            message.reply('HAS CHALLENGED MAXWELL\n@KaiZuke#8350 Do you accept this challenge?\n!y or !n')
         
      if(message.content == '?challenge') {
         message.channel.sendMessage('Challenge salah satu anggota grup ini dalam 1v1 csgo (Senjata Apapun).\nYang menang akan naik rank dan yang kalah akan turun rank :D.\nGOOD LUCK HAVE FUN!');
     }
      
-        const text = [args.join(" ")];
-        if(message.content == '!say') {
-             message.channel.sendMessage(text)
-     }
-
      if(message.content == '!help') {
         message.channel.sendMessage('Hi There! Saya adalah AI yang dibuat oleh KaiZuke atau Sean Edbert \n Tugas saya adalah membantu kamu yang memerlukan bantuan! \n COMMANDS : \n !ranks untuk melihat rank apa saja di server ini \n !credits untuk melihat credits\n ?challenge = challenge help \n ?derank untuk mengetahui lebih lanjut cara derank \n ?kick untuk mengetahui aturan KICK dan BAN ');
     }
