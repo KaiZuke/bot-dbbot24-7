@@ -9,8 +9,8 @@ bot.on('message', (message) => {
      message.reply("Tiati omongannya y!");
     }
         
-    if(message.content == '!challenge maxwell') {
-            message.reply('HAS CHALLENGED MAXWELL\n@Mitsuha#5956 Do you accept this challenge?\n!y or !n')
+    if(message.content == '!challenge ${<USER>}') {
+            message.reply('HAS CHALLENGED MAXWELL\n${<USER>} Do you accept this challenge?\n!y or !n')
     }
         
         if(message.content == '!challenge sean') {
