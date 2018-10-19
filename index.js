@@ -94,9 +94,9 @@ bot.on('message', (message) => {
         message.channel.sendMessage('ATURAN KICK :\n1. Jika ingin mengeKICK seseorang, kumpulkanlah minimal 3 orang yang ingin mengekick orang tersebut.\n2. Orang sudah terKICK ? Tenang kalian bisa invite lagi kok.\n3. Ingin orang tersebut kena BANNED ? kumpulkan lebih dari 5 orang yang ingin orang tersebut terBANNED dari server.\n4. Ingin memulai VOTE KICK ? Hubungi Admin server.\nADMIN SERVER TIDAK TERLIBAT DALAM PERMASALAHAN KICK.\natau N E T R A L');
     }
     
-    if(message.content == 'UP_DATE_V3.2') {
+    if(message.content == 'UP_DATE_V3.3') {
             message.delete().catch(O_o=>{});
-        message.channel.sendMessage('DB BOT HAS BEEN UPDATED! VERSION 3.2\nCHANGE LOG : Fixed Bugs !');
+        message.channel.sendMessage('DB BOT HAS BEEN UPDATED! VERSION 4\nCHANGE LOG :\n -Updated !help\n -Added !challenge (name)\n -Fixed Bugs.');
     }
     
     if(message.content == '!request') {
