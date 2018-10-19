@@ -17,6 +17,10 @@ bot.on('message', (message) => {
             message.reply('HAS CHALLENGED SEAN\n<@!223725589427781632> ,Do you accept this challenge?\n!y or !n')
         }
         
+        if(message.content == '!challenge ryan') {
+            message.reply('HAS CHALLENGED RYAN\n<@246530825888202752> ,Do you accept this challenge?\n!y or !n')
+        }
+        
              if(message.content == '!challenge bagas') {
             message.reply('HAS CHALLENGED BAGAS\n<@273751740539469824> ,Do you accept this challenge?\n!y or !n')
         }
