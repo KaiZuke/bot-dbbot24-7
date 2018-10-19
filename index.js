@@ -10,43 +10,43 @@ bot.on('message', (message) => {
     }
         
     if(message.content == '!challenge maxwell') {
-            message.reply('HAS CHALLENGED MAXWELL\n@Mitsuha#5956 Do you accept this challenge?\n!y or !n')
+            message.reply('HAS CHALLENGED MAXWELL\n<@!299829365888385027> ,Do you accept this challenge?\n!y or !n')
     }
         
         if(message.content == '!challenge sean') {
-            message.reply('HAS CHALLENGED SEAN\n@KaiZuke#8350 Do you accept this challenge?\n!y or !n')
+            message.reply('HAS CHALLENGED SEAN\n<@!223725589427781632> ,Do you accept this challenge?\n!y or !n')
         }
         
              if(message.content == '!challenge bagas') {
-            message.reply('HAS CHALLENGED BAGAS\n<@273751740539469824> Do you accept this challenge?\n!y or !n')
+            message.reply('HAS CHALLENGED BAGAS\n<@273751740539469824> ,Do you accept this challenge?\n!y or !n')
         }
         
         if(message.content == '!challenge tobi') {
-            message.reply('HAS CHALLENGED TOBI\n@TOBETM#7203 Do you accept this challenge?\n!y or !n')
+            message.reply('HAS CHALLENGED TOBI\n<@!153284385888665600> ,Do you accept this challenge?\n!y or !n')
          }
         
         if(message.content == '!challenge aurel') {
-            message.reply('HAS CHALLENGED AUREL\n@kael#9583 Do you accept this challenge?\n!y or !n')
+            message.reply('HAS CHALLENGED AUREL\n<@!282735594147282946> ,Do you accept this challenge?\n!y or !n')
         }
         
-        if(message.content == '!challenge vincent') {
-            message.reply('HAS CHALLENGED VINCENT\n@HusTLe#9285 Do you accept this challenge?\n!y or !n')
+        if(message.content == '!challenge yosua') {
+            message.reply('HAS CHALLENGED YOSUA\n<@!276958036432519168> ,Do you accept this challenge?\n!y or !n')
         }        
         
         if(message.content == '!challenge william') {
-            message.reply('HAS CHALLENGED WILLIAM\n@Nana#2610 Do you accept this challenge?\n!y or !n')
+            message.reply('HAS CHALLENGED WILLIAM\n<@!300231041971519488> ,Do you accept this challenge?\n!y or !n')
         }        
         
         if(message.content == '!challenge falcon') {
-            message.reply('HAS CHALLENGED VINCENT\n@HusTLe#9285 Do you accept this challenge?\n!y or !n')
+            message.reply('HAS CHALLENGED FALCON\n<@!332717412493557761> ,Do you accept this challenge?\n!y or !n')
         }        
         
         if(message.content == '!challenge bryan') {
-            message.reply('HAS CHALLENGED VINCENT\n@falcon#6643 Do you accept this challenge?\n!y or !n')
+            message.reply('HAS CHALLENGED BRYAN\n<@!332717412493557761> ,Do you accept this challenge?\n!y or !n')
         }        
         
         if(message.content == '!challenge vincent') {
-            message.reply('HAS CHALLENGED VINCENT\n@falcon#6643 Do you accept this challenge?\n!y or !n')
+            message.reply('HAS CHALLENGED VINCENT\n<@274509696919142402> ,Do you accept this challenge?\n!y or !n')
         }        
         
         if(message.content == '!y') {
